@@ -1,0 +1,11 @@
+.section_6{
+    max-width: 144rem;
+    height: 81.3rem;
+    margin: auto;
+    padding: 0 1rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }

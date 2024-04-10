@@ -1,10 +1,11 @@
-.section_4{
+.section_12{
     max-width: 144rem;
-    height: 79.2rem;
+    height: 91.6rem;
     margin: auto;
     padding: 0 1rem;
     
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: rgb(247, 247, 234);
     }

@@ -1,0 +1,11 @@
+.section_2{
+    max-width: 144rem;
+    height: 11.2rem;
+    margin: auto;
+    padding: 0 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

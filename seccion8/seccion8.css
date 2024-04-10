@@ -1,0 +1,11 @@
+.section_8{
+    max-width: 144rem;
+    height: 40.6rem;
+    margin: auto;
+    padding: 0 1rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(197, 76, 234, 0.861);
+    }
