@@ -2,10 +2,34 @@
     max-width: 144rem;
     height:63rem;
     margin: auto;
-    padding: 0 1rem;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25rem 13rem 25rem;
     background: rgb(255, 225, 255);
+}
+.section_1 h1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    font-size: 6rem;
+    align-self: flex-end;
+}
+.section_1 h3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 3rem;
+    font-weight: 50;
+}
+.btn-mora{
+    width: 15rem;
+    height: 4rem;
+    border: 1px solid rgb(127, 4, 164);
+    grid-row: 3/4;
+    grid-column: 1/2;
+    align-self: center;
+    
+    font-size: 1.5rem;
+    color: white;
+    background: rgb(127, 4, 164);
+    border-radius: 15px;
 }
